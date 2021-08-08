@@ -1,0 +1,32 @@
+.text {
+  margin-top: 250px;
+  margin-bottom: 250px;
+  background-color: #ff00ff;
+  text-align: center;
+  text-align: justify;
+  padding: 10px;
+}
+.text .p1 {
+  /* word-spacing: 5px; */
+  line-height: 1.5;
+  text-indent: 10px;
+  color: #000;
+
+  background-color: #00ffff;
+  padding: 10px;
+  text-transform: capitalize;
+}
+.p1:hover {
+  background-color: #00ff0f;
+}
+.p2 {
+  word-spacing: 10px;
+}
+.text h1 {
+  text-overflow: clip;
+  line-height: 1.5;
+  text-indent: 50px;
+  text-shadow: 5px 2px #00ffff;
+  font-size: 40px;
+  text-transform: capitalize;
+}

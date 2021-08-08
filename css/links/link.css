@@ -1,0 +1,78 @@
+.all {
+  background-color: #fff00f;
+  padding: 20px;
+  margin: 20px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.list {
+  padding: 20px;
+  margin-left: 100px;
+  margin-top: 0;
+}
+.list a {
+  padding: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+.list li {
+  padding: 10px;
+}
+.list a:visited {
+  color: rgb(41, 228, 41);
+}
+
+.list a:link {
+  color: darkorange;
+}
+.list a:active {
+  color: white;
+}
+.list a:hover {
+  color: darkred;
+  font-size: 16px;
+}
+.second {
+  align-items: center;
+  background-color: #fabcff;
+}
+.second h1 {
+  margin: 10px;
+  color: rgb(48, 65, 216);
+}
+.second button {
+  margin: 7px;
+  margin-bottom: 15px;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+  border-radius: 7px;
+}
+.facebook {
+  background-color: #5daaf3;
+
+  transition: 1s;
+}
+.whatsapp {
+  background-color: #00ff00;
+  transition: 1s;
+}
+.insta {
+  background-color: rgb(148, 27, 27);
+  transition: 1s;
+}
+.insta:hover {
+  background-color: rgb(240, 101, 147);
+  transform: scale(1.3);
+}
+.whatsapp:hover {
+  background-color: rgb(56, 139, 56);
+  transform: scale(1.3);
+}
+.facebook:hover {
+  background-color: #4e33c5;
+  transform: scale(1.3);
+}
