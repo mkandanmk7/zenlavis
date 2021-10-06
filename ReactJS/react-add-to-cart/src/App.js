@@ -27,19 +27,22 @@ function App() {
   useEffect(() => {
     console.log("Component Mounted");
     getProducts();
-  });
+  }, []);
 
   return (
     <div className="App">
       <h1>Products</h1>
 
-      {product.map((items) => {
+      {product.map((items, index) => {
         return (
-          <div>
-            <img src={items.image} alt="product_image" />
-            <h2>{items.product_name}</h2>
-            <h4>Price: {items.price}</h4>
-            <h3>Catagory: {items.catagory}</h3>
+          <div className="products" key={index}>
+            <div className="container cards">
+              <h2>{items.product_name}</h2>
+              <img src={items.image} alt="product_image" />
+              <h4>Price: {items.price}</h4>
+              <h3>Catagory: {items.catagory}</h3>
+              <button className="btn btn-success">Add to cart</button>
+            </div>
           </div>
         );
       })}
